@@ -20,13 +20,13 @@ public class CrossoverUtilityVehicle extends Car implements iRefueling {
 
     @Override
     public TypeFuel fuel() {
-        return TypeFuel.GASOLIN;
+        return TypeFuel.GASOLINE;
 
     }
 
     @Override
     public void setFuelType(TypeFuel fuelType) {
-        super.setFuelType(TypeFuel.GASOLIN);
+        super.setFuelType(TypeFuel.GASOLINE);
     }
 }
 //Принцип DIP нарушается (Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.)

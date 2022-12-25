@@ -1,5 +1,5 @@
 public enum TypeFuel {
-    GASOLIN,
+    GASOLINE,
     DIESEL,
     ELECTRICITY
 }
